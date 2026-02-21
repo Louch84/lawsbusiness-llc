@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Finds Co. ☀️ | Best Spring Dropshipping Store</title>
+    <meta name="description" content="Discover trending spring products, fashion, home essentials and more. Shop now at Spring Finds Co.!">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f8f8;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+        }
+        .categories {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .categories h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+        .cat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .cat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .cat-card:hover {
+            transform: translateY(-5px);
+        }
+        .cat-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+        .cat-card p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .products {
+            padding: 60px 20px;
+            background: white;
+        }
+        .products h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 50px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .product-img {
+            height: 250px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+        }
+        .product-info {
+            padding: 20px;
+        }
+        .product-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .product-info p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        .product-btn {
+            display: block;
+            background: #667eea;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .product-btn:hover {
+            background: #5568d3;
+        }
+        .why-us {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .why-us h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+        .why-item {
+            padding: 20px;
+        }
+        .why-item .icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .why-item h3 {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ff6b6b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>☀️ Spring Finds Co.</h1>
+        <p>Your source for trending spring products, fashion, home essentials & more!</p>
+        <a href="https://springfindsco.wed2c.com" class="btn" target="_blank">SHOP NOW</a>
+    </section>
+
+    <section class="categories">
+        <h2>🛍️ Shop by Category</h2>
+        <div class="cat-grid">
+            <div class="cat-card">
+                <h3>👗 Women's Spring Fashion</h3>
+                <p>Dresses, pants, tops & more for the new season</p>
+            </div>
+            <div class="cat-card">
+                <h3>🏠 Home Essentials</h3>
+                <p>Decor, organizers, and vibes for your space</p>
+            </div>
+            <div class="cat-card">
+                <h3>💄 Beauty & Skincare</h3>
+                <p>Trending beauty products that actually work</p>
+            </div>
+            <div class="cat-card">
+                <h3>💎 Accessories</h3>
+                <p>Necklaces, bracelets, and finishing touches</p>
+            </div>
+            <div class="cat-card">
+                <h3>👟 Shoes</h3>
+                <p>Comfortable kicks for everyday wear</p>
+            </div>
+            <div class="cat-card">
+                <h3>🆕 New Arrivals</h3>
+                <p>Fresh drops added weekly</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>🔥 Trending Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">👗</div>
+                <div class="product-info">
+                    <h3>Comfort & Casual Long Sleeve Dress</h3>
+                    <p>Breathable fabric perfect for Philly spring days. Cute for brunch, dates, or vibin'.</p>
+                    <a href="https://springfindsco.wed2c.com/goodsDetails?jobsProductId=2508280750413210900&recommendProductId=2602200018290322500&hyId=kibt-fe-cj" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">👖</div>
+                <div class="product-info">
+                    <h3>Urban Slim Fit Bootcut Pants</h3>
+                    <p>Low waist, slim fit, bootcut. Cleanest fit for the spring/summer transition.</p>
+                    <a href="https://springfindsco.wed2c.com/goodsDetails?jobsProductId=2509120134243205600&recommendProductId=2602200018090330900&hyId=kibt-fe-cj" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">👕</div>
+                <div class="product-info">
+                    <h3>High-End Ice Ion Fiber Polo</h3>
+                    <p>Keeps you cool when it's warming up. Date night or happy hour ready.</p>
+                    <a href="https://springfindsco.wed2c.com/goodsDetails?jobsProductId=2509080736450324900&recommendProductId=2602200016590321500&hyId=kibt-fe-cj" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🌙</div>
+                <div class="product-info">
+                    <h3>Galaxy Starry Sky Projector</h3>
+                    <p>Transform your room into outer space. Kids and adults both love this jawn.</p>
+                    <a href="https://springfindsco.wed2c.com" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🧴</div>
+                <div class="product-info">
+                    <h3>Brightening Teeth Toothpaste</h3>
+                    <p>Reviews speaking for themselves - people teeth getting WHITER. No cap.</p>
+                    <a href="https://springfindsco.wed2c.com" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🧼</div>
+                <div class="product-info">
+                    <h3>Natural Handmade Goat Milk Soap</h3>
+                    <p>Gentle, moisturizing, all natural. Sensitive skin? No problem.</p>
+                    <a href="https://springfindsco.wed2c.com" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">💼</div>
+                <div class="product-info">
+                    <h3>8-Piece Luggage Organizer Set</h3>
+                    <p>Travel season incoming! Keep your jawns organized. Find stuff faster.</p>
+                    <a href="https://springfindsco.wed2c.com" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📿</div>
+                <div class="product-info">
+                    <h3>Moonstone Glowing Necklace</h3>
+                    <p>This glowing necklace? Pure vibes. Gems that light up in the dark.</p>
+                    <a href="https://springfindsco.wed2c.com" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">☕</div>
+                <div class="product-info">
+                    <h3>Mini USB Electric Juicer</h3>
+                    <p>Fresh lemonade and citrus drinks in seconds. Perfect for spring.</p>
+                    <a href="https://springfindsco.wed2c.com/goodsDetails?jobsProductId=1307884136215764992&recommendProductId=2602200037140351500&hyId=kibt-fe-cj" class="product-btn" target="_blank">Shop Now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2>Why Shop wit Us?</h2>
+        <div class="why-grid">
+            <div class="why-item">
+                <div class="icon">🚀</div>
+                <h3>Fast Shipping</h3>
+                <p>Quick delivery so you don't wait long</p>
+            </div>
+            <div class="why-item">
+                <div class="icon">✅</div>
+                <h3>Quality Products</h3>
+                <p>We only pick the good jawns</p>
+            </div>
+            <div class="why-item">
+                <div class="icon">🔥</div>
+                <h3>Trending Finds</h3>
+                <p>Curated picks that actually pop off</p>
+            </div>
+            <div class="why-item">
+                <div class="icon">💰</div>
+                <h3>Dropshipping</h3>
+                <p>We ship, you don't worry about inventory</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>☀️ Spring Finds Co.</h2>
+        <p>Good finds for good people.</p>
+        <br>
+        <p><strong>Shop:</strong> <a href="https://springfindsco.wed2c.com" target="_blank">springfindsco.wed2c.com</a></p>
+        <br>
+        <p>© 2026 Spring Finds Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
